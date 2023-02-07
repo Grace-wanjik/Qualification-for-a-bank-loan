@@ -1,0 +1,13 @@
+//Bank loan
+#include<stdio.h>
+int main(){
+    int age,salary;
+    printf("Enter your age in years and salary:");
+    scanf("%d%d",&age,&salary);
+    if(age>=21&&salary>=21000){
+        printf("You qualify for a loan");
+    }
+    else{
+        printf("Unfortunately you do not qualify for a loan");}
+    return 0;
+}
